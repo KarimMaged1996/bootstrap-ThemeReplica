@@ -103,3 +103,18 @@
 .present {
   height: 4vh;
 }
+
+/* CIRCLES */
+.circleSVG {
+  height: 7.5vh;
+}
+
+.circle {
+  border: solid;
+  height: 12vh;
+  width: 12vh;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
