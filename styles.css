@@ -56,3 +56,28 @@
     display: none;
   }
 }
+
+/* SLIDER */
+
+.slider {
+  position: relative;
+}
+
+.onImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 75%;
+}
+
+@media screen and (max-width: 700px) {
+  .onImage {
+    top: 20%;
+    left: 10%;
+  }
+  div.onImage :nth-child(1) {
+    font-size: 1.5rem !important;
+  }
+}
