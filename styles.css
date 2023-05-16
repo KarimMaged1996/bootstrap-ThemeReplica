@@ -81,3 +81,25 @@
     font-size: 1.5rem !important;
   }
 }
+
+/* DELIVERY */
+.delivery {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  background-color: #b9a16b;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*DEALS*/
+.deals {
+  background-color: #f6f6f6;
+  height: 25vh;
+  margin-bottom: 5vh;
+  padding: 25px;
+}
+.present {
+  height: 4vh;
+}
