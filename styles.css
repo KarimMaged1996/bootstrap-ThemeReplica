@@ -203,3 +203,17 @@ div.product img {
 div.product button {
   visibility: hidden;
 }
+
+/* ABOUT */
+.aboutSVG {
+  height: 4vh;
+}
+
+.about {
+  background-color: #f6f6f6;
+  min-height: 25vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
